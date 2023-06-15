@@ -93,3 +93,12 @@ def lcm():
     return lcm
 
 print(lcm())
+
+def greet(name):
+    """This function greets the user with the given name."""
+    print(f"Hello, {name}!")
+
+# Calling the function
+greet("Alice")
+
+
